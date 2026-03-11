@@ -1,0 +1,108 @@
+# Systems for Design and Implementation — Assignment 0
+
+- Course: Systems for Design and Implementation
+- Project: **Expense Planner**
+- Client: 
+
+---
+
+## 1. Requirement Engineering
+
+### Task 0 — Client Identification
+For this project, I chose a close acquaintance as client.  
+The client needs a web application to track personal expenses in a simple, clear, and organized way.
+
+---
+
+### Task 1 — Requirements Elicitation and Feature Set
+
+After interviewing the client, I extracted the following requirements.
+
+#### 1.1 Functional Requirements
+1. The user can register and log in.
+2. The user can access a presentation page with logo, app name, tagline, and short app description.
+3. The user can view expenses in a paginated table (master view).
+4. The user can open a separate details page for each expense (detail view).
+5. The user can add a new expense.
+6. The user can update/edit an existing expense.
+7. The user can delete an expense.
+
+#### 1.2 Non-Functional Requirements
+1. Clean and minimal user interface.
+2. Responsive layout for desktop and mobile.
+3. Fast and intuitive navigation between pages.
+4. Consistent visual language (colors, typography, spacing).
+
+#### 1.3 Domain Entity (MVP)
+**Expense**
+- id
+- title
+- amount
+- category
+- date
+- paymentMethod
+- notes
+
+---
+
+### Task 2 — Structured Requirement Document (Occam’s Razor)
+To keep the scope realistic for semester implementation, only one core entity (**Expense**) is included in the MVP.  
+Advanced features (charts, reports, recurring expenses, budgeting goals) are intentionally postponed for later iterations.
+
+---
+
+## 2. Design Principles
+
+### Task 0 — Visual Preferences from Client Interview
+The following design direction was agreed together with the client:
+
+- **Application name:** Expense Planner  
+- **Tagline:** *Track every penny, plan every month.*  
+- **Visual style:** modern, clean, trustworthy  
+- **Logo concept:** wallet + coin icon  
+- **Color palette:**
+  - Primary: `#2563EB`
+  - Secondary: `#14B8A6`
+  - Accent: `#F59E0B`
+  - Background: `#F8FAFC`
+  - Text: `#0F172A`
+
+---
+
+### Task 1 — Prototype Planning
+Planned screens:
+1. Login
+2. Register
+3. Presentation / Landing
+4. Expense list (paginated table)
+5. Expense details
+6. Add/Edit expense form
+7. Delete confirmation modal
+
+---
+
+### Task 2 — Figma Visual Prototype
+The visual prototype was created in Figma, following good design principles:
+- visual hierarchy
+- clear CTA buttons
+- spacing consistency
+- readable typography
+- coherent navigation flow
+
+**Figma link:** 
+
+---
+
+## 3. Bronze Challenge Checklist
+
+- [x] Login/Register views
+- [x] Presentation view (logo, name, tagline, brief description)
+- [x] Master/detail perspective on domain entity
+- [x] Paginated table with minimal info
+- [x] Detailed information in separate view/page
+- [x] Full CRUD capabilities (add, update, erase)
+
+---
+
+## 4. Conclusion
+This prototype and requirements document define a focused MVP for the Expense Planner application, suitable for iterative implementation throughout the semester.
